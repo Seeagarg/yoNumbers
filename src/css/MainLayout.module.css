@@ -1,0 +1,27 @@
+.container{
+    width: 100%;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.sub_container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 37rem;
+    min-height: 100dvh;
+    background: linear-gradient(180deg, #F5F5F5 52.5%, #2B368A 100%);
+    border-radius: 1.5rem;
+    overflow: hidden;
+    gap: 1rem;
+}
+
+@media screen and (max-width:500px){
+    .sub_container{
+        width: 100%;
+    border-radius: 0;
+    }
+}

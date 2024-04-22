@@ -1,0 +1,82 @@
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html{
+  font-size: 62.5%;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+button{
+  cursor: pointer;
+}
+
+.css-5xe99f-MuiLinearProgress-bar1{
+  background-color: white !important;
+}
+
+/* .MuiLinearProgress-root{ */
+  /* background-color: blue; */
+/* } */
+
+
+/* .css-1nq07ae-control {
+  background-color: B368A !important;
+} */
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  z-index: 0;
+}
+
+
+
+ .swiper-slide{
+  width: 70% !important;
+  height: 15rem !important;
+  border-radius: 20px;
+}
+
+
+/* .swiper-slide:nth-child(2n) {
+  width: 60%;
+}
+
+.swiper-slide:nth-child(3n) {
+  width: 40%;
+} */

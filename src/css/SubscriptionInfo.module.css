@@ -1,0 +1,57 @@
+.subscription_container{
+    width: 100%;
+    padding: 1rem 1rem 1rem 1rem;
+}
+.subscription_sub_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.number_pack_container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.icon_pack_container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.number{
+    color: #172A6E;
+    font-size: 3rem;
+    font-family: 'Inter',sans-serif;
+    font-weight: 700;
+}
+
+.pack{
+    color: #172A6E;
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: 'Inter',sans-serif;
+}
+
+.icon{
+    font-size: 1.3rem;
+    color: #172A6E80;
+}
+
+.avatar_container{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar{
+    width: 10rem;
+    height: auto;
+    object-fit: cover;
+}

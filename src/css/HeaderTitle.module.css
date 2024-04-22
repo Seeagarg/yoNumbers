@@ -1,0 +1,25 @@
+.header{
+    width: 100%;
+    margin-top: -3rem;
+}
+.header_sub_container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    background-color: #E5E5E5;
+    padding: 2rem 0 2rem 0;
+}
+.tab{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+.text{
+    font-size: 3rem;
+    color: #172A6E;
+    font-family: 'Inter',sans-serif;
+    font-weight: 800;
+}

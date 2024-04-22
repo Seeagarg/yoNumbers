@@ -1,0 +1,109 @@
+
+.main{
+    position: absolute;
+    top: 12%;
+    padding: 1rem;
+}
+
+.success_container{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    z-index: 99;
+}
+.circle{
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    border: 0.3rem solid #E92230;
+    background-color: #E922300F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    font-size: 3rem !important;
+    color: #E92230;
+    ;
+}
+
+.title{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2.4rem;
+    color: #172A6E;
+    font-family: 'Inter',sans-serif;
+    font-weight: 700;
+}
+
+.description{
+    width: 100%;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #172A6E;
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    padding: 0 1rem 0 1rem;
+}
+
+.continue_btn{
+    width: 27rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 2rem;
+    font-family: 'Inter',sans-serif;
+    font-weight: 900;
+    color: white;
+    background-color: #E92230;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+.footer_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* position: absolute; */
+    /* bottom: 2rem; */
+    z-index: 99;
+}
+.footer_sub_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer_text{
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1.4rem;
+    font-family: 'Inter',sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.nameImage_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+ }
+ 
+ .name_image{
+     width: 15rem;
+     
+ }

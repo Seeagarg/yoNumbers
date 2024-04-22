@@ -1,0 +1,50 @@
+.main_container{
+    padding: 2rem;
+    color: #2B358A;
+}
+
+.header p{
+    color: #2B358A;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.accordianTitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_left{
+    display: flex;
+    align-items: center;
+}
+
+.title_left p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #E92230;
+}
+
+.accordian1{
+    padding: 2rem;
+}
+
+
+.accordianText{
+    padding: 2rem;
+    font-size: 1.8rem;
+    /* display: none; */
+}
+
+.opened{
+    display: block;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    background: #F8F8F8;
+    border-radius: 10px;
+    margin: 0 1rem 0 1rem;
+}
+

@@ -1,0 +1,21 @@
+.progress_bar{
+    width: 100%;
+    height:1.5rem;
+    padding: 0 2rem 0 2rem;
+    background-color: #C4C4C4;
+    border-radius: 2rem;
+    position: relative;
+}
+.progress_bar .crown{
+    position: absolute;
+    left: -1rem;
+    top: -80%;
+    z-index: 99;
+}
+.progress_bar_percentage{
+    position: absolute;
+    left: 0;
+    height: 100%;
+    background-color: #ECC055;
+    width: 40%;
+}

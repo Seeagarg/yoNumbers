@@ -1,0 +1,95 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+    padding: 0 0 1rem 0;
+}
+
+.title_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+    gap: 1rem;
+    width: 100%;
+}
+.image_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.title{
+    font-size: 3rem;
+    font-family: 'Inter',sans-serif;
+    color: #172A6E;
+    font-weight: 700;
+}
+
+.points{
+    color: #019FE3;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.card_container{
+    padding: 0 1rem 0 1rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 2rem;
+}
+
+.card{
+    width: 100%;
+    height: 22.7rem;
+    background-color: #E922300F;
+    ;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 1rem 2rem 1rem;
+    cursor: pointer;
+}
+
+.level{
+    color: #172A6E;
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: 'Inter',sans-serif;
+}
+
+.progress_bar{
+    width: 100%;
+    height:1.5rem;
+    padding: 0 2rem 0 2rem;
+    background-color: #C4C4C4;
+    border-radius: 2rem;
+    position: relative;
+}
+.progress_bar .crown{
+    position: absolute;
+    left: -1rem;
+    top: -80%;
+    z-index: 99;
+}
+.progress_bar_percentage{
+    position: absolute;
+    left: 0;
+    height: 100%;
+    background-color: #ECC055;
+    width: 40%;
+}
+
+.lock{
+    font-size: 4rem;
+    color: #95C11F;
+}

@@ -1,0 +1,105 @@
+.container{
+    width: 100%;
+    min-height: 100dvh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    /* style={{background:"#2B368A",width:"100%"}} */
+    background: #2B358A;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+    background-color: white;
+    position: absolute;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    top: 0;
+    height: 20px;
+    width: 70%;
+    
+}
+
+.image_container{
+    background-color: white;
+    width: 37rem;
+    min-height: 100dvh;
+    object-fit: fill;
+    position: relative;
+    background:url('../staticImages/Onboarding.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.logo_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 10rem; */
+    position: absolute;
+    top: 20%;
+    z-index: 99;
+}
+
+.logo_container img{
+    width: 35rem;
+    height: auto;
+    object-fit: contain;
+    
+}
+
+.text{
+    width: 70%;
+    text-align: center;
+}
+
+.text p{
+    font-size: 1.8rem;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.progressBar{
+    width: 80%;
+    /* background: white; */
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1.5rem;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+
+}
+
+
+@media screen and (min-height:720px){
+    .logo_container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 10rem; */
+        position: absolute;
+        top: 30%;
+        z-index: 99;
+    }
+}
