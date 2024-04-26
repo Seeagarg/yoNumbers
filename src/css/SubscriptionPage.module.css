@@ -171,6 +171,8 @@
     align-items: center;
     width: 100%;
     z-index: 99;
+    /* position: fixed; */
+    bottom: 10%;
 }
 .footer_sub_container{
     width: 100%;
@@ -188,9 +190,3 @@
     text-align: center;
 }
 
-@media screen and (min-height:700px) {
-    .footer_container{
-        /* position: absolute; */
-        /* bottom: 2rem; */
-    }
-}

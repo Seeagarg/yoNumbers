@@ -1,7 +1,7 @@
 
 
 .title_container{
-   /* margin-top: 3rem; */
+   margin-top: 3rem;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -15,7 +15,7 @@
     object-fit: contain;
 }
 .name_image{
-    width: 26rem;
+    width: 24rem;
     height: auto;
     object-fit: contain;
 }
@@ -150,9 +150,11 @@
     align-items: center;
     width: 100%;
     padding: 2rem;
-    /* position: absolute; */
-    /* bottom: 2rem; */
+    /* position: fixed; */
+    /* width: 37rem; */
+    /* bottom: 10%; */
     z-index: 99;
+    margin-top: 10rem;
 }
 .footer_sub_container{
     width: 100%;
@@ -186,3 +188,4 @@
     align-self: center;
     
 }
+
